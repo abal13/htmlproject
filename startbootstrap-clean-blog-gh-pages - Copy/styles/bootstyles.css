@@ -1,0 +1,124 @@
+
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.common{
+  
+    position: absolute;
+}
+
+
+
+.main{
+   
+    top: 250px;
+    border: 25px;
+    left:275px;
+    right: 275px;
+    bottom: 100px;
+}
+
+
+
+
+.header{
+    top:24px;
+    left:1px;
+    right: 1px;
+    height: 50px;
+    z-index: 2;
+    border-bottom: solid 1px;
+    font-size: 12px;
+    
+}
+
+a:hover{
+    text-underline-position: below;
+    font-weight: bold;
+    font-style: normal;
+}
+
+a:link.nav{
+    color: black;
+}
+a:link{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: teal;
+}
+
+
+
+.tableaulink{
+    font-size: 17px;
+    color: teal;
+    font-weight: bold;
+}
+.title {
+    font-size:50px;
+    font-weight: bold;
+    top: 135px;
+    left: 400px;
+}
+
+.whitefont{
+    color: black;
+    font-weight: bold;
+}
+
+.description{
+    color: black;
+}
+
+
+.footer{
+    bottom: 11px;
+    top: 500%;
+    left: 5px;
+    right: 5px;
+    height: 20px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    
+
+}
+
+
+.subheader{
+
+    float: right ;
+   
+}
+
+.subbg{
+    background-image: url(../images/aboutmebg.jpg);
+}
+
+.backtotop{
+    float: left;
+    bottom: 25px;
+    left: 25px;
+    height: 20px;
+    border: 2px;
+    position: fixed;
+    
+}
+
+.fontpages{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+ 
+   
+   }
